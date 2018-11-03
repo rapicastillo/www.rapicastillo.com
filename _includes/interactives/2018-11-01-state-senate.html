@@ -1,0 +1,119 @@
+<script src="//unpkg.com/d3"></script>
+<script src="https://d3js.org/d3-hexbin.v0.2.min.js"></script>
+
+<div id='interactive'>
+  <div id='hover-hex'></div>
+</div>
+
+
+<script type='text/text/javascript'>
+</script>
+<script type='text/javascript' src='/assets/js/interactives/20181101.js'></script>
+<style>
+  #interactive {
+    width: 100%;
+  }
+  #interactive .hex {
+    cursor: crosshair;
+    stroke-width: 3px;
+  }
+  #interactive g > g {
+    cursor: crosshair;
+  }
+  #interactive g > g:hover .hex {
+    stroke: #fff4be;
+  }
+  #hover-hex {
+    visibility: hidden;
+    position: absolute;
+    z-index: 1000;
+    background-color: white;
+    transform: translate(-50%, -120%);
+
+    padding: 5px;
+    border-top: 4px solid #4e4e6d;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.5);
+  }
+
+  #hover-hex .h-rating {
+    padding: 2px 4px;
+    display: inline-block;
+    margin-bottom: 5px;
+    font-size: 10px;
+    font-family: lato;
+    text-transform: uppercase;
+  }
+
+  #hover-hex .h-rating.h-ddd { background: #282db8; color: rgba(255,255,255,0.5); }
+  #hover-hex .h-rating.h-dd { background: #282db8; color: rgba(255,255,255,0.5); }
+  #hover-hex .h-rating.h-d { background: #d4f1ff; }
+  #hover-hex .h-rating.h-t { background: #fff4be; }
+  #hover-hex .h-rating.h-r { background: #ffeef3; }
+  #hover-hex .h-rating.h-rr { background: #db8295; }
+  #hover-hex .h-rating.h-rrr { background: #962e2e; color: rgba(255,255,255,0.5); }
+  #hover-hex .h-rating.h-w { background: #000000; color: rgba(255,255,255,0.5);  }
+
+  #hover-hex h3 {
+    font-size: 20px;
+    font-family: Vollkorn, serif;
+  }
+  #hover-hex h5 {
+    font-size: 13px;
+    font-family: lato;
+    font-weight: 300;
+    margin-bottom: 7px;
+    max-width: 300px;
+    line-height: 15px;
+  }
+  #hover-hex div.candidates .incumbent {
+    color: gray;
+    font-family: Vollkorn, serif;
+    font-weight: bold;
+  }
+  #hover-hex div.candidates {
+    font-size: 14px;
+    font-family: Lato;
+    letter-spacing: -0.2px;
+    line-height: 20px;
+  }
+
+  #hover-hex div.candidates span.candidate-image {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    vertical-align: middle;
+    background-size: 50px;
+    border-radius: 20px;
+    background-position: center center;
+  }
+  #hover-hex div.candidates:before {
+    content: 'Candidates';
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: 300;
+  }
+  #hex-map{
+    text-align: center;
+  }
+  #hex-map svg {
+  }
+  #interactive .lbl {
+    text-anchor: middle;
+    font-size: 14px;
+    font-family: Vollkorn, serif;
+  }
+  #hex-map svg .text-note {
+    text-anchor: end;
+    font-family: lato;
+    font-size: 12px;
+    font-weight: 300;
+  }
+
+  #interactive .lbl.lbl-w,
+  #interactive .lbl.lbl-rrr,
+  #interactive .lbl.lbl-ddd {
+    fill: white;
+    font-weight: 300;
+    opacity: 0.5;
+  }
+</style>

@@ -1,0 +1,64 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+
+  div#page {
+    display: inline-block;
+    max-width: $max-width;
+    flex: 1;
+
+    div#nav {
+      flex: 1;
+      display: flex;
+      justify-content: space-between;
+      padding-top: 10px;
+      margin-bottom: 20px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid $gray2;
+
+      a#logo-title {
+        font-size: 18px;
+        color: $gray0;
+        font-family: Lato;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-weight: 800;
+        letter-spacing: 1.4px;
+
+        &:hover {
+          color: $blue;
+        }
+      }
+
+      nav a {
+        text-decoration: none;
+        font-size: 16px;
+        color: $gray0;
+        font-weight: 800;
+        padding: 0 2px;
+        font-family: Vollkorn, sans-serif;
+
+        &[data-type='email'] {
+          font-size: 14px;
+          color: $gray1;
+        }
+
+        &:hover {
+          color: $orange;
+        }
+      }
+    }
+
+    footer {
+      padding-top: 20px;
+      padding-bottom: 50px;
+      border-top: 1px solid $gray2;
+      margin-top: 50px;
+      text-align: center;
+      font-size: 12px;
+
+      @include LatoRegular;
+    }
+  }
+}

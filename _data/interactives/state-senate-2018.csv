@@ -1,0 +1,64 @@
+id,counties,hex_x,hex_y,safety
+1,Suffolk,24,4,RRR
+2,Suffolk,23,3,RRR
+3,Suffolk,22,4,RR
+4,Suffolk,23,5,RR
+5,"Nassau, Suffolk",21,5,T
+6,Nassau,22,6,RR
+7,Nassau,20,6,T
+8,"Nassau, Suffolk",23,7,T
+9,Nassau,21,7,D
+10,Queens,19,9,DDD
+11,Queens,18,6,DDD
+12,Queens,18,8,DDD
+13,Queens,17,7,DDD
+14,Queens,20,8,DDD
+15,Queens,18,10,DDD
+16,Queens,19,7,DDD
+17,Kings (Brooklyn),14,12,W
+18,Kings,17,9,DDD
+19,Kings,16,10,DDD
+20,Kings,16,8,DDD
+21,Kings,14,10,DDD
+22,Kings,15,11,R
+23,"Kings, Richmond (Staten Island)",13,11,DDD
+24,Richmond,12,12,RRR
+25,Kings,15,9,DDD
+26,"Kings, New York (Manhattan)",11,11,DDD
+27,New York,10,10,DDD
+28,New York,12,10,DDD
+29,"New York, Bronx",11,9,DDD
+30,New York,9,9,DDD
+31,New York,10,8,DDD
+32,Bronx,12,8,DDD
+33,Bronx,9,7,DDD
+34,"Bronx, Westchester",11,7,DDD
+35,Westchester,10,6,DDD
+36,"Bronx, Westchester",12,6,DDD
+37,Westchester,11,5,DDD
+38,"Rockland, Westchester",9,5,DDD
+39,"Orange, Rockland, Ulster",8,6,T
+40,"Dutchess, Putnam, Westchester",10,4,RR
+41,"Dutchess, Putnam",12,4,RR
+42,"Delaware, Orange, Sullivan, Ulster",7,5,R
+43,"Columbia, Rensselaer, Saratoga, Washington",12,2,RR
+44,"Albany, Rensselaer",11,3,DDD
+45,"Clinton, Essex, Franklin, Saint Lawrence, Warren, Washington",11,1,RRR
+46,"Albany, Greene, Montgomery, Schenectady, Ulster",9,3,RRR
+47,"Lewis, Oneida, St. Lawrence",9,1,RRR
+48,"Jefferson, Oswego, St. Lawrence",7,1,RRR
+49,"Fulton, Hamilton, Herkimer, Saratoga, Schenectady",10,2,RRR
+50,"Cayuga, Onondaga",7,3,R
+51,"Cayuga, Chenango, Cortland, Delaware, Herkimer, Otsego, Schoharie, Tompkins, Ulster",8,2,RRR
+52,"Broome, Chenango, Delaware, Tioga",6,4,RRR
+53,"Madison, Oneida, Onondaga",8,4,DDD
+54,"Cayuga, Monroe, Ontario, Seneca, Tompkins, Wayne",6,2,RRR
+55,"Monroe, Ontario",5,3,RRR
+56,Monroe,4,2,RRR
+57,"Allegany, Cattaraugus, Chautauqua, Livingston",3,5,RRR
+58,"Chemung, Schuyler, Steuben, Tompkins, Yates",5,5,RRR
+59,"Erie, Livingston, Monroe, Wyoming",4,4,RRR
+60,Erie,1,3,RRR
+61,"Erie, Genesee, Monroe",3,3,RRR
+62,"Monroe, Niagara, Orleans",2,2,RRR
+63,Erie,2,4,DDD

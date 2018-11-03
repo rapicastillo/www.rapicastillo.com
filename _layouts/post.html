@@ -1,0 +1,23 @@
+---
+layout: default
+social-image: page.image
+---
+<div class="container type-post">
+  <h1>{{ page.title }}</h1>
+  <div class='post-info'>
+    <span class='post-date'>{{ page.date | date_to_long_string }}</span>
+    <!-- <span class='post-share'>
+      <i class='icon ion-logo-twitter'></i>
+      <i class='icon ion-logo-facebook'></i>
+      <i class='icon ion-ios-link'></i>
+    </span> -->
+  </div>
+
+  <div class='post-interactive'>
+    {% include {{ page.interactive }} %}
+  </div>
+
+  <div class='post-content'>
+  {{ content }}
+  </div>
+</div>

@@ -1,0 +1,12 @@
+- name: hi@rapicastillo.com
+  link: mailto:hi@rapicastillo.com
+  type: email
+# - name: About
+#   link: /about
+#   type: link
+# - name: Works
+#   link: /works
+#   type: link
+- name: Let's Talk
+  link: https://calendly.com/rapicastillo/30min
+  type: schedule
