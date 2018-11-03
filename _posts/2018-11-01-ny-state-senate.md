@@ -9,7 +9,7 @@ categories:
 interactive: interactives/2018-11-01-state-senate.html
 ---
 
-In the 2018 mid-term elections, _all_ New York State Senate seats are up for grabs. In the **63 state senate seats**, 29 seats are solidly Democrat, one leans Democrat, three leans Republican, six are strong R, and 19 solidly R. With four tossup races, Democrats in New York has a pathway of gaining control of the state senate — if they could defend one seat (9th District).
+In the 2018 mid-term elections, _all_ New York State Senate seats are up for grabs. In the **63 state senate seats**, 29 seats are solidly Democrat, one leans Democrat, three lean Republican, six are strong R, and 19 solidly R. With four tossup races, Democrats in New York has a pathway of gaining control of the state senate — if they could defend one seat (9th District).
 
 With a path for Democrats to gain control of both chambers — with a Democratic governor, there's a path of passing the [New York Health Act](https://www.nyhcampaign.org/). The **New York Health Act** — if passed — will provide comprehensive universal health care for all New Yorkers. It [has passed the state assembly five times](http://gothamist.com/2018/08/22/nyc_universal_healthcare.php) including the last four years in a row. However, because of Republicans and renegade Democrats, the bill has been stopped in the state senate as well.
 
