@@ -18,7 +18,7 @@ According to City & State, there are 14 senate districts in play in the 2018 mid
 
 There is a clear path for Democrats to gain control of both chambers. With a Democratic governor, progressive legislations (which have been consistently blocked by a republican State Senate) now have the possibility to be passed.
 
-One of these legislation is the  **New York Health Act**. If passed — will provide comprehensive universal health care for all New Yorkers. It [has passed the state assembly five times](http://gothamist.com/2018/08/22/nyc_universal_healthcare.php) including the last four years in a row. However, because of Republicans and renegade Democrats, the bill has been stopped in the state senate as well. [More information at Campaign for New York Health](https://www.nyhcampaign.org/)
+One of these legislations is the  **New York Health Act**. If passed — NYHA will provide comprehensive universal health care for all New Yorkers. It [has passed the state assembly five times](http://gothamist.com/2018/08/22/nyc_universal_healthcare.php) including the last four years in a row. However, because of Republicans and renegade Democrats (IDC), the bill has been consistently blocked in the state senate. [More information at Campaign for New York Health](https://www.nyhcampaign.org/)
 
 I was interested in visualizing the state of the State Senate elections. Some times, it's hard to understand the state senate map of New York, but I tried to simplify it using a hex map. It shows districts from rural NY with large areas having the same representation as the more compact senate districts in New York City.
 
