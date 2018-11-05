@@ -3,3 +3,4 @@ _site
 .jekyll-metadata
 _data/.DS_Store _includes/.DS_Store assets/.DS_Store
 **.DS_Store
+.DS_Store
