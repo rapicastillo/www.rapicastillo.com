@@ -6,7 +6,7 @@ categories:
 - visualization
 - new-york-state
 - universal-healthcare
-image: assets/images/posts/2018-01-01.png
+image: assets/images/posts/2018-01-01-nys.jpg
 interactive: interactives/2018-11-01-state-senate.html
 description: I was interested in visualizing the state of the State Senate elections. Some times, it's hard to understand the state senate map of New York, but I tried to simplify it using a hex map.
 twitter:
