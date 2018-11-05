@@ -6,9 +6,12 @@ categories:
 - visualization
 - new-york-state
 - universal-healthcare
-image: assets/images/posts/2018-01-01.png
+image: http://rapicastillo.com/assets/images/posts/2018-01-01.png
 interactive: interactives/2018-11-01-state-senate.html
 description: I was interested in visualizing the state of the State Senate elections. Some times, it's hard to understand the state senate map of New York, but I tried to simplify it using a hex map.
+twitter:
+  title: Visualizing the state of New York State Senate 2018 Midterm Elections
+  description: I was interested in visualizing the state of the State Senate elections. Some times, it's hard to understand the state senate map of New York, but I tried to simplify it using a hex map.
 ---
 
 According to City & State, there are 14 senate districts in play in the 2018 midterm elections. Four senate districts are considered tossups, three senate districts lean republican,  one leans democratic, and six are strongly Republican. 29 are solid Ds and 19 solid R. With 14 senate districts in play, Democrats in New York has a pathway of gaining control of the state senate.
