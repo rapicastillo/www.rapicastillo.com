@@ -1,19 +1,23 @@
 ---
-title: Visualizing How Close New York is to Universal Healthcare
+title: Visualizing the state of New York State Senate 2018 Midterm Elections
 author: Rapi Castillo
 layout: post
 categories:
 - visualization
 - new-york-state
 - universal-healthcare
+image: assets/images/posts/2018-01-01.png
 interactive: interactives/2018-11-01-state-senate.html
+description: I was interested in visualizing the state of the State Senate elections. Some times, it's hard to understand the state senate map of New York, but I tried to simplify it using a hex map.
 ---
 
-In the 2018 mid-term elections, _all_ New York State Senate seats are up for grabs. In the **63 state senate seats**, 29 seats are solidly Democrat, one leans Democrat, three lean Republican, six are strong R, and 19 solidly R. With four tossup races, Democrats in New York has a pathway of gaining control of the state senate — if they could defend one seat (9th District).
+According to City & State, there are 14 senate districts in play in the 2018 midterm elections. Four senate districts are considered tossups, three senate districts lean republican,  one leans democratic, and six are strongly Republican. 29 are solid Ds and 19 solid R. With 14 senate districts in play, Democrats in New York has a pathway of gaining control of the state senate.
 
-With a path for Democrats to gain control of both chambers — with a Democratic governor, there's a path of passing the [New York Health Act](https://www.nyhcampaign.org/). The **New York Health Act** — if passed — will provide comprehensive universal health care for all New Yorkers. It [has passed the state assembly five times](http://gothamist.com/2018/08/22/nyc_universal_healthcare.php) including the last four years in a row. However, because of Republicans and renegade Democrats, the bill has been stopped in the state senate as well.
+There is a clear path for Democrats to gain control of both chambers. With a Democratic governor, progressive legislations (which have been consistently blocked by a republican State Senate) now have the possibility to be passed.
 
-I was interested in showing how close we are to having universal healthcare in New York State. Some times, it's hard to understand the state senate map of New York, but I tried to simplify it using a hex map. It shows districts with huge areas the same size as the more compact senate districts in New York City.
+One of these legislation is the  **New York Health Act**. If passed — will provide comprehensive universal health care for all New Yorkers. It [has passed the state assembly five times](http://gothamist.com/2018/08/22/nyc_universal_healthcare.php) including the last four years in a row. However, because of Republicans and renegade Democrats, the bill has been stopped in the state senate as well. [More information at Campaign for New York Health](https://www.nyhcampaign.org/)
+
+I was interested in visualizing the state of the State Senate elections. Some times, it's hard to understand the state senate map of New York, but I tried to simplify it using a hex map. It shows districts from rural NY with large areas having the same representation as the more compact senate districts in New York City.
 
 These visualizations are based on City and State's [preview of the 2018 state Senate elections](https://www.cityandstateny.com/articles/politics/campaigns-elections/2018-new-york-senate-elections-guide.html){:target='\_blank'} and Ross Barkan's article on the "[Six most important elections outside NYC](http://gothamist.com/2018/11/01/ny_midterm_elections_upstate.php){:target="\_blank"}".
 
