@@ -1,7 +1,5 @@
 div#page {
-  @media only screen and (max-width: 600px) {
-    padding: 10px;
-  }
+
   div.container.type-post {
     display: flex;
     flex-direction: column;
@@ -43,7 +41,6 @@ div#page {
     }
     div.post-content {
       display: flex;
-      width: 100%;
       flex-direction: column;
       align-items: center;
       justify-content: center;

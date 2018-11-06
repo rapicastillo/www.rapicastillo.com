@@ -76,7 +76,9 @@ const renderCandidates = (district) => {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-  const width = 600, height = 510, radius=20;
+  const offsetWidth = document.getElementById('interactive').offsetWidth;
+  const width = offsetWidth > 600 ? 600 : offsetWidth, radius=width/26, height = radius * 26;
+  console.log("~", width, radius);
   const container = d3.select("#interactive").append("div").attr("id", "hex-map");
   const hexbin = d3.hexbin()
                     .radius(radius)
@@ -112,14 +114,14 @@ document.addEventListener("DOMContentLoaded", () => {
 
   groups.append("path")
     .attr("d", hexbin.hexagon())
-    .attr("transform", d => `translate(${(d.x * radius)}, ${(d.y * radius) + (15 * d.y)})`)
+    .attr("transform", d => `translate(${(d.x * radius)}, ${(d.y * radius) + (radius/1.5 * d.y)})`)
     .attr("class", d => `hex hex-${d.rating.toLowerCase()}`)
     .attr("stroke", d => getColor(d.rating))
     .attr("fill", d => getColor(d.rating));
   groups.append("text")
     .text(d=>d.district)
     .attr('class', d=> `lbl lbl-${d.rating.toLowerCase()}`)
-    .attr("transform", d => `translate(${(d.x * radius)}, ${(d.y * radius) + (15 * d.y)})`)
+    .attr("transform", d => `translate(${(d.x * radius)}, ${(d.y * radius) + (radius/1.5 * d.y)})`)
 
   let x = 0;
   const bar = svg.append("g")
